@@ -84,7 +84,7 @@ You must have learned how to use our **builder _messages_**, and it will be thro
 
    ```tsx
    //react/Countdown.tsx
-   const titleText = title || <FormattedMessage id="countdown.title" />
+   const titleText = title || <FormattedMessage id="editor.countdown.title" />
    ```
 
 6. Now, join the title to the countdown to render. To do so, define a container outside. Besides, the text for the title will be passes using the _prop_ `title`:
