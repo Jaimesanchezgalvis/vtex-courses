@@ -104,11 +104,14 @@ const [timeRemaining, setTime] = useState<TimeSplit>({
      })
 
      tick(targetDate, setTime)
+     
+       const { hours, minutes, seconds } ={...timeRemaining} 
+
 
      return (
        <div>
    -     <h1>{ targetDate }</h1>
-   +     <h1>{ `${timeRemaining.hours}:${timeRemaining.minutes}:${timeRemaining.seconds}` }</h1>
+   +     <h1>{ `${hours}:${minutes}:${seconds}` }</h1>
        </div>
      )
    }
