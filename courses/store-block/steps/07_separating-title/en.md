@@ -63,7 +63,7 @@ Now, you are going to separate the title from the countdown block and add it to 
        seconds: '00'
      })
 
-   - const titleText = title || <FormattedMessage id="countdown.title" />
+   - const titleText = title || <FormattedMessage id="editor.countdown.title" />
      const handles = useCssHandles(CSS_HANDLES)
 
      tick(targetDate, setTime)
